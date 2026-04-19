@@ -1,0 +1,16 @@
+{
+  "name": "honored-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord Honored [👑] - 100% Francophone",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mongoose": "^8.3.1",
+    "dotenv": "^16.4.5",
+    "ms": "^2.1.3"
+  }
+}
